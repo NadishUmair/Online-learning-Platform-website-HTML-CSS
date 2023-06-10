@@ -1,0 +1,103 @@
+body{
+    text-align:left;
+    background-color: aliceblue;
+}
+h1{
+    color: rgb(250, 250, 250);
+    text-align: center;
+    background-color: black;
+
+}
+.head{
+    height: 3rem;
+    animation: head 2s ease-in-out forwards;
+    transform: translatey(-150%);
+}
+@keyframes head{
+    100%{
+        transform: translate(0);
+    }
+}
+h2{
+    color: darkgreen;
+}
+.section2{
+  animation: section 2s ease-in-out forwards;
+  transform: translateX(-150%);
+}
+@keyframes section{
+    100%{
+        transform:translate(0) ;
+    }
+}
+dt{
+    font-weight: bolder;
+    font-size: larger;
+}
+.paid{
+    float:left;
+    width: 49%;
+    animation: paid 2s ease-in-out forwards;
+    transform: translateX(-150%);
+}
+@keyframes paid{
+    100%{
+        transform: translate(0);
+    }
+}
+
+.free{
+    /* float: right;
+    width:49% */
+    
+    
+    animation: free 2s ease-in-out forwards; 
+    transform: translateX(150%);
+}
+@keyframes free{
+    100%{
+        transform: translate(0);
+    }
+}
+input[type=button]{
+    border-radius: 20px;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-size: 20;
+    /* background-color: #dddbdb; */
+    border:#dddbdb;
+    text-transform: uppercase;
+    margin: 0.5em 0em;
+    text-align: center;
+    color:green;
+    /* margin-left: 80%; */
+    margin-right:60% ;
+    
+}
+input[type=button]:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+.backhomebtn{
+    float: right;
+    
+}
+.backhomebtn input{
+    border-radius: 20px;
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    font-size: 20;
+    background-color: #dddbdb;
+    border:#dddbdb;
+    text-transform: uppercase;
+    margin: 0.5em 0em;
+    text-align: center;
+    color:rgb(241, 86, 91);
+}
+.backhomebtn input:hover{
+    background-color: rgb(247, 187, 187);
+    cursor: pointer;
+}
+
+
+
